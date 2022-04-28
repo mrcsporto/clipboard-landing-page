@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', 'Segoe UI','Open Sans', 'Helvetica Neue';
+}
+
+header {
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 90%)), url("images/bg-header-desktop.png");
+    height: 15rem;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+}
+
+.logo {
+    height: 3rem;
+    width: 3rem;
+}
+
+.container {
+    align-content: space-between;
+    justify-items: center;
+    
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+
+    grid-column-gap:1.8rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "c1 c1"
+        "c2 c2"
+        "c3 c3"
+        "c4 c4"
+        "c5 c5"
+        "c6 c6";
+}
+
+.first-container {
+    grid-area: c1;
+
+    text-align: center;
+}
+
+.second-container {
+    grid-area: c2;
+    text-align: center;
+}
+
+.third-container {
+    grid-area: c3;
+}
+
+.fourth-container {
+    grid-area: c4;
+    text-align: center;
+}
+
+.fifth-container {
+    grid-area: c5;
+    text-align: center;
+}
+
+.sixth-container {
+    grid-area: c6;
+}
