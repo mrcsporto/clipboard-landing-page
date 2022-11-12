@@ -55,7 +55,9 @@ a {
 }
 
 .bg-header {
-    background-image: url("images/bg-header-desktop.png");
+    background: linear-gradient(to bottom, transparent, white),
+    url("images/bg-header-desktop.png");
+    /* background-image: url("images/bg-header-desktop.png");git */
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -164,6 +166,7 @@ a {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
+    justify-content: center;	
     margin-top: 5rem;
 }
 
@@ -172,7 +175,7 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     height: 35.625rem;
-    width: 100%;
+    width: 50rem;	
     margin-left: -2rem;
 }
 
@@ -181,9 +184,10 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     line-height: 2;
-    padding-right: 18%;
+    padding-right: 25rem;	
+    margin-left: 1rem;	
     width: 51.875rem;
-    margin-top: 2rem;
+
 }
 
 .list h3 {
