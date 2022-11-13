@@ -427,11 +427,10 @@ footer ul {
         align-items: center;
         text-align: center;
         line-height: 2;
-
+        margin: 0;
         padding-right: 0;
-       
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 2rem 0 0 0;
     }
 
     .fourth p {
